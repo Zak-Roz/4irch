@@ -1,5 +1,5 @@
 const arrayTypes = ['undefined', 'object', 'function', 'symbol', 'string', 'bigint', 'number', 'boolean'];
-const arrayBeforeFilter = [undefined, 'hello', 'world', 23, '23', null, 37, null, Math.sin, function () { }, new Date(), [1, 2, 4], { a: 1 }, Symbol('foo'), (typeof 1), String(1), `template literal`, 42n, Number('1'), 37];
+const arrayBeforeFilter = [undefined, 'hello', 23, '23', null, 37, null, Math.sin, function () { }, new Date(), [1, 2, 4], { a: 1 }, Symbol('foo'), (typeof 1), String(1), `template literal`, 42n, Number('1'), 37];
 
 function filterBy(array, type) {
   const filterArray = [];

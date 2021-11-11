@@ -13,11 +13,10 @@ function filterBy(array, type) {
 
 let typeInput;
 
-typeInput = prompt(`Enter one of JS data type: ${arrayTypes}`);
+typeInput = prompt(`Enter one of this types: ${arrayTypes}`);
 
 while (!arrayTypes.includes(typeInput)) {
-  typeInput = prompt(`Error. Try again!\nEnter on of this types ${arrayTypes}:`);
-  console.log(typeInput);
+  typeInput = prompt(`Error. Try again!\nEnter on of this types: ${arrayTypes}`);
 }
 
 console.log(filterBy(arrayBeforeFilter, typeInput));
